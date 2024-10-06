@@ -1,5 +1,5 @@
 import React from 'react'
-import backgroundVideo from "./assets/backgroundVideo.mp4";
+
 import "./Home.css"
 import Navbar from './components/Navbar';
 import ReactTypingEffect from 'react-typing-effect'
@@ -18,7 +18,7 @@ import git from "./assets/git.png"
 import github from "./assets/github.png"
 import material from "./assets/materialui.png"
 import ProjectCard from './components/ProjectCard';
-
+import background from "./assets/background.jpg"
 import profileimg from "./assets/profileimg.jpg"
 import Education from './components/Education';
 import Contact from './components/Contact';
@@ -30,10 +30,9 @@ function Home() {
   return (
    <>
    <div className="video-background">
-      <video autoPlay loop muted disablePictureInPicture>
-        <source src={backgroundVideo} type="video/mp4" />
-        
-      </video>
+     
+
+      <img className='bg-img' src={background} alt="" />
       <div className='content'>
         
 
