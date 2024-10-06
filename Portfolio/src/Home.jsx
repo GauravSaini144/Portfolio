@@ -11,17 +11,14 @@ import js from "./assets/js.png"
 import react from "./assets/react.png"
 import node from "./assets/node.png"
 import express from "./assets/express.png"
-import mongoDB from "./assets/mongoDB.png"
+import mongoDB from "./assets/mongodb.png"
 import tailwind from "./assets/tailwind.png"
 import redux from "./assets/redux.png"
 import git from "./assets/git.png"
 import github from "./assets/github.png"
 import material from "./assets/materialui.png"
 import ProjectCard from './components/ProjectCard';
-import wanderlust from "./assets/wanderlust.png"
-import ecommerce from "./assets/ecommerce.png"
-import noteflow from "./assets/noteflow.png"
-import todolist from "./assets/todolist.png";
+
 import profileimg from "./assets/profileimg.jpg"
 import Education from './components/Education';
 import Contact from './components/Contact';
