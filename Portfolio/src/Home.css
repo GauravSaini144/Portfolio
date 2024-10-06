@@ -1,0 +1,292 @@
+
+*{
+  
+    scroll-behavior: smooth;
+  
+}
+.video-background{
+    /* position: relative; */
+  /* width: 90vw; */
+  width: 100%;
+  height: 90vh;
+  /* overflow: hidden; */
+  /* overflow-x: hidden; */
+  
+
+
+
+}
+
+
+.video-background video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1; /* Ensures the video stays behind the content */
+    opacity: 0.90;
+}
+
+.content{
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+    right: 0%;
+  z-index: 1; /* Ensures the content stays above the video */
+  color: white; /* Adjust text color for readability */
+  display: flex;
+ flex-direction: column;
+  width: 100%;
+  align-items: center;
+  height: 100%;
+  
+  
+  /* background-color: aqua; */
+
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+  margin-top: 12vmax;
+  column-gap: 10vmax;
+  width: 80%;
+  /* align-items: center; */
+  justify-content: space-around;
+}
+
+
+.intro-details h1 span{
+  color: cyan;
+}
+
+.intro-details h1{
+  font-size: 4vmax;
+  font-weight: bolder;
+}
+.intro-details h2{
+  font-size: 2.5vmax;
+  font-weight: bold;
+}
+.intro-img img{
+  height: 20vmax;
+  border-radius: 90%;
+  box-shadow: 1px 0px 88px -7px white;
+  
+}
+
+
+.overview{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vmax;
+  color: white;
+
+  padding: 10vmax 10vmax;
+
+}
+.overview div{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.overview h1{
+  font-size: 4vmax;
+  font-weight: 900;
+  margin-top: -10px;
+  
+
+}
+.overview p{
+  font-size: x-large;
+  color: rgb(205, 228, 247);
+}
+.skills{
+  padding: 10vmax 10vmax;
+  margin-top: 10vmax;
+}
+.skills h1{
+  font-size: 4vmax;
+  font-weight: 900;
+  margin-bottom: 3vmax;
+}
+.skills-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 4vmax;
+
+}
+
+.projects{
+  display: flex;
+  flex-direction: column;
+  padding: 10vmax 10vmax;
+  /* overflow: hidden; */
+  margin-top: 10vmax;
+  
+  
+  
+
+}
+.project-heading h1{
+  font-size: 4vmax;
+font-weight: 900;
+margin-top: -10px;
+margin-bottom: 3vmax;
+}
+.project-heading p{
+  font-size: x-large;
+  color: rgb(205, 228, 247);
+}
+.project-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.education{
+  padding: 10vmax 10vmax;
+  margin-top: 10vmax;
+}
+.education h1{
+  font-size: 4vmax;
+  font-weight: 900;
+  margin-bottom: 3vmax;
+}
+
+.contact{
+  margin-top: 10vmax;
+  padding: 10vmax 10vmax;
+  width: 100%;
+}
+.contact div p{
+  font-size: x-large;
+  color: rgb(205, 228, 247);
+}
+.contact div h1{
+
+  font-size: 4vmax;
+font-weight: 900;
+margin-top: -10px;
+margin-bottom: 3vmax;
+}
+
+.footer{
+  margin-top: 20vmax;
+  height: 10vmax;
+}
+
+@media screen and (max-width:520px){
+  
+
+
+  .intro{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vmax;
+    row-gap: 10vmax;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .intro-details h1{
+    font-size: 5vmax;
+    font-weight: bolder;
+  }
+  .intro-details h2{
+    font-size: 3vmax;
+    font-weight: bold;
+  }
+  
+  .intro-details{
+    order: 2;
+      
+    padding: 0vmax 2vmax;
+  }
+
+  .overview{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30vmax;
+    color: white;
+   width: 100%;
+    padding: 0vmax 2vmax;
+  }
+
+  .overview p{
+    width: 100%;
+    font-size: x-large;
+    color: rgb(205, 228, 247);
+  }
+
+
+  
+
+  .skills{
+    padding: 0vmax 2vmax;
+    margin-top: 30vmax;
+  }
+  .skills h1{
+    font-size: 6vmax;
+    font-weight: 900;
+    margin-bottom: 3vmax;
+  }
+  .overview h1{
+    font-size: 6vmax;
+    font-weight: 900;
+    margin-top: -10px;
+    
+  
+  }
+
+  .projects{
+    display: flex;
+    flex-direction: column;
+    padding: 0vmax 2vmax;
+    /* overflow: hidden; */
+    margin-top: 30vmax;
+    
+    
+    
+  
+  }
+
+  .project-heading h1{
+    font-size: 6vmax;
+  font-weight: 900;
+  margin-top: -10px;
+  margin-bottom: 3vmax;
+  }
+
+  .education{
+    padding: 0vmax 2vmax;
+    margin-top: 30vmax;
+  }
+
+  .contact{
+    margin-top: 30vmax;
+    padding: 0vmax 2vmax;
+    width: 100%;
+  
+  }
+  .education h1{
+    font-size: 6vmax;
+    font-weight: 900;
+    margin-bottom: 3vmax;
+  }
+
+  .contact div h1{
+
+    font-size: 6vmax;
+  font-weight: 900;
+  margin-top: -10px;
+  margin-bottom: 3vmax;
+  }
+}
+
