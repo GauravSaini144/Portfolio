@@ -14,7 +14,7 @@ function Contact() {
 
     
   <div>
-        <a href="mailto:gaurav1442004@gmail.com"><img src={mail} alt="" /></a>
+        <a href="mailto:gauravsaini1442004@gmail.com"><img src={mail} alt="" /></a>
         
         <a href="tel:+9887688930"><img src={telephone} alt="" />
         </a>
